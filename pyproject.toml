@@ -1,0 +1,19 @@
+[project]
+name = "MatImpute"
+version = "0.1.0"
+description = "Imputation Algorithms For Material Science Dataset"
+authors = [
+    { name = "CHUN", email = "chunhui.xie@qq.com" },
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
