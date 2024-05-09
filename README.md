@@ -2,20 +2,22 @@
 
 A imputation algorithm for Material Science dataset. 😄
 
-## TOC:point_down:
+## TOC :point_down:
 
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Features](#Features)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
 
-## Features :hammer_and_wrench:
+## Features 
+
+:hammer_and_wrench:The features of MatImpute 。
 
 * **A Nearest-Neighbor-Based Algorithm to Impute Missing Data in Material Science**
 * **Provide Scikit-learn API**
 
-## Usage :wrench:
+## Usage 
 
-* Install :
+* :hammer_and_wrench:Install :
   ```shell
   pip install git+https://github.com/big-material/MatImpute.git
   ```
@@ -31,7 +33,7 @@ A imputation algorithm for Material Science dataset. 😄
   df_filled = mat_impute.transform(df)
   ```
 
-## Contributing :heart:
+## Contributing
 
 If you find a bug :bug:, please open a [bug report](https://github.com/big-material/MatImpute/issues/new?assignees=&labels=bug&template=bug_report.md&title=).
 If you have an idea for an improvement or new feature :rocket:, please open a [feature request](https://github.com/big-material/MatImpute/issues/new?assignees=&labels=Feature+request&template=feature_request.md&title=).
