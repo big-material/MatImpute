@@ -33,6 +33,10 @@ A imputation algorithm for Material Science dataset. 😄
   df_filled = mat_impute.transform(df)
   ```
 
+## Experiment
+
+The experiment in paper 《**A Nearest-Neighbor-Based Algorithm to Impute Missing Data in Material Science**》 was in the directory [experiment](./experiment)
+
 ## Contributing
 
 If you find a bug :bug:, please open a [bug report](https://github.com/big-material/MatImpute/issues/new?assignees=&labels=bug&template=bug_report.md&title=).
