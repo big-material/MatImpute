@@ -1,2 +1,0 @@
-Scenario,"miss_pct [0, 1]",Evaluated: et,mean,hyperimpute,missforest
-MCAR,0.1,0.01 +/- 0.0,0.0766 +/- 0.0,0.0229 +/- 0.0,0.023 +/- 0.0
