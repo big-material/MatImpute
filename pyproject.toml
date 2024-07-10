@@ -17,3 +17,7 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[tool.pdm.build]
+include = ["src/", "pyproject.toml", "README.md", "LICENSE"]
+exclude = ["tests/", "docs/", "experiment/"]
