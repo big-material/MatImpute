@@ -32,10 +32,28 @@ A imputation algorithm for Material Science dataset. 😄
   mat_impute = MatImputer()
   df_filled = mat_impute.transform(df)
   ```
+## Citation
+
+If you use MatImpute, please cite the following paper.
+
+```
+@article{xie2024imputation,
+  title={Imputation of Missing Data in Materials Science through Nearest Neighbors and Iterative Predictions},
+  author={Xie, Chunhui and Li, Rui and Li, Yunqi and Xie, Haibo and Liu, Qibin},
+  journal={Journal of Chemical Theory and Computation},
+  volume={21},
+  number={1},
+  pages={70--78},
+  year={2024},
+  publisher={ACS Publications}
+}
+
+```
+
 
 ## Experiment
 
-The experiment in paper 《**A Nearest-Neighbor-Based Algorithm to Impute Missing Data in Material Science**》 was in the directory [experiment](./experiment)
+The experiment in paper [《**Imputation of Missing Data in Materials Science through Nearest Neighbors and Iterative Predictions**》](https://doi.org/10.1021/acs.jctc.4c01237) was in the directory [experiment](./experiment)
 
 ## Contributing
 
